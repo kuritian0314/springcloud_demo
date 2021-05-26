@@ -11,6 +11,7 @@ import java.util.Collection;
 @RequestMapping("/stu")
 public class StudentController {
 
+    //自动注入dao层
     @Autowired
     private StudentRepo studentRepo;
 

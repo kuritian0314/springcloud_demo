@@ -8,11 +8,11 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Student {
-    //学生id
+
     private Integer id;
-    //学生名字
+
     private String name;
-    //学生年龄
+
     private int age;
 
     public Integer getId() {
